@@ -1,0 +1,19 @@
+{
+  "name": "better-daily-mitzvot-luach",
+  "version": "1.0.0",
+  "description": "Open-source Jewish mitzvot dataset for all holidays, fast days, minor holidays & memorial days — with gender obligations & day types. Powered by Hebcal.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@hebcal/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT",
+  "author": "James Pikover (Better Daily)"
+}
