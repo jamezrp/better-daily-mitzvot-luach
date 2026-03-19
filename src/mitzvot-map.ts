@@ -152,5 +152,5 @@ export const mitzvotMap: Record<string, DailyMitzvot> = {
 
 export const notableEventsMap: Record<string, string[]> = {
   "7 Adar": ["Birth and yahrtzeit of Moshe Rabbeinu — some recite special prayers or fast"],
-  // TODO: Expand this to every Hebrew date later (community PRs welcome for full-year notable events!)
+  // TODO: Expand this to every Hebrew date later (community PRs welcome!)
 };

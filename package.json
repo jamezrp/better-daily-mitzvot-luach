@@ -9,7 +9,7 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "@hebcal/core": "^6.0.0"
+    "@hebcal/core": "^2.5.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0"

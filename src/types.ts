@@ -2,7 +2,7 @@ export interface Mitzvah {
   id: string;
   type: 'positive' | 'negative' | 'custom';
   title: string;
-  description: string;
+  description?: string;
   timing?: string;
   genderObligation: 'Both' | 'Men primarily' | 'Women primarily' | 'Men primarily (women often participate today)' | 'Customary for all';
   category: 'yomtov' | 'chol_hamoed' | 'fast' | 'minor_holiday' | 'memorial' | 'notable_event';
