@@ -1,2 +1,12 @@
-# better-daily-mitzvot-luach
-Open-source dataset of every positive, negative, and custom mitzvah tied to Jewish holidays and fast days (Rosh Hashana through Purim + all minor fasts). Built on @hebcal/core for perfect dates, zmanim, and Israel/Diaspora rules. Free for any app or developer.
+# Better Daily Mitzvot Luach
+
+Open-source dataset of **every positive, negative, and custom mitzvah** for all Jewish holidays, fast days, minor holidays, and Israeli memorial days — with accurate gender obligations and day-type separation.
+
+Powered by [@hebcal/core](https://www.npmjs.com/package/@hebcal/core) so dates, zmanim, Israel/Diaspora differences, and leap years are always perfect.
+
+### Quick Start
+```ts
+import { getMitzvotForDate } from 'better-daily-mitzvot-luach';
+
+const today = getMitzvotForDate(new Date());
+console.log(today);
