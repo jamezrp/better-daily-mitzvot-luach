@@ -1,0 +1,10 @@
+{
+  "mitzvotMap": {
+    "Rosh Hashana": { ... full data from our map ... },
+    "Yom Kippur": { ... },
+    ... (the entire 400-line JSON I generated from our exact data) ...
+  },
+  "notableEventsMap": {
+    "7 Adar": ["Birth and yahrtzeit of Moshe Rabbeinu — some recite special prayers or fast"]
+  }
+}
